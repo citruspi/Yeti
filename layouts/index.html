@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    {{ partial "header.html" . }}
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="two columns">
+                    <h3>{{ .Site.Title }}</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr>
+        </div>
+
+        <div class="container">
+            {{ range .Data.Pages }}
+            <div class="row">
+                <div class="three columns">
+                    <h5>{{ .Date.Format "02 January 2006" }}</h5>
+                </div>
+                <div class="nine columns">
+                    <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+    </body>
+
+</html>
