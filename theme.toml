@@ -1,6 +1,6 @@
-author = ""
-description = ""
-license = ""
+author = "@citruspi"
+description = "Personal theme for citruspi.io"
+license = "Public Domain"
 name = "Yeti"
-source_repo = ""
-tags = ["", ""]
+source_repo = "https://github.com/citruspi/Yeti"
+tags = ["minimal"]
