@@ -48,3 +48,7 @@ blockquote {
 .filter-link:hover {
     color:inherit;
 }
+
+code {
+    background:#f9f9f9;
+}
