@@ -3,17 +3,7 @@
 
     <body>
 
-        <div class="container">
-            <div class="row">
-                <div class="two columns">
-                    <h3>{{ .Site.Title }}</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <hr>
-        </div>
+        {{ partial "header.html" . }}
 
         <div class="container">
             {{ range .Data.Pages }}
