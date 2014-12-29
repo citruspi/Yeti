@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{{ partial "header.html" . }}
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="two columns">
+                    <h3>{{ .Site.Title }}</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>{{ .Title }}</h2>
+
+            {{ .Content }}
+
+            Posted on {{ .Date.Format "02 January 2006" }}.
+        </div>
+
+    </body>
+
+</html>
