@@ -6,3 +6,7 @@ a {
     text-decoration: inherit;
     color: inherit;
 }
+
+p, li {
+    font-size: 150%;
+}
