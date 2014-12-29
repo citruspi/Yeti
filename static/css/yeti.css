@@ -10,3 +10,29 @@ a {
 p, li {
     font-size: 150%;
 }
+
+.filter-selection {
+    border-style: solid;
+    border-width: thin;
+    padding: 1rem 0.5rem;
+    margin-bottom: 4rem;
+}
+
+.filter-choice {
+    padding: 0;
+    margin: 0 inherit;
+    font-size: 140%;
+    text-align:center;
+}
+
+.filter-choice:hover {
+    background: linear-gradient(transparent 30%, #ff9 30%);
+}
+
+.filter-selected {
+    background: linear-gradient(transparent 30%, #ff9 30%);
+}
+
+.filter-link:hover {
+    color:inherit;
+}
