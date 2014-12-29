@@ -11,6 +11,18 @@ p, li {
     font-size: 150%;
 }
 
+blockquote p {
+    display: inline;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
 .filter-selection {
     border-style: solid;
     border-width: thin;
