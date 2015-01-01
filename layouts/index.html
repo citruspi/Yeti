@@ -23,6 +23,7 @@
             </div>
 
             {{ range .Data.Pages }}
+            {{ if or (or (eq .Section "technical") (eq .Section "phavel")) (eq .Section "miscellaneous")}}
             <div class="row">
                 <div class="three columns">
                     <h5>{{ .Date.Format "02 January 2006" }}</h5>
@@ -31,6 +32,7 @@
                     <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
                 </div>
             </div>
+            {{ end }}
             {{ end }}
         </div>
 
